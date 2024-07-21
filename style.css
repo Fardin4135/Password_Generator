@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    background-color:rgb(38, 38, 68);
+}
+.container{
+    max-width: 600px;
+    width: 90%;
+    margin: 12%;
+}
+h2{
+    color: white;
+    font-size: 40px;
+}
+h3{
+    color: green;
+    font-size: 45px;
+    border-bottom: 2px solid green;
+    margin-right: 190px;
+}
+.input{
+    width: 90%;
+    display: flex;
+}
+#pass{
+    width: 80vh;
+    height: 10vh;
+    margin-top: 40px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+.input img{
+    height: 5vh;
+    margin-top: 60px;
+    margin-left: -60px;
+    font-size: 28px;
+    cursor: pointer;
+}
+#btn img{
+    width: 4vh;
+    height: 4vh;
+    padding-right: 15px;
+}
+#btn{
+    height: 8vh;
+    width: 30vh;
+    font-size: 32px;
+    text-align: start;
+    background-color: green;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+}
+@media screen and (max-width:410px){
+    #pass{
+        width: 90%;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -10px;
+    }
+    #btn{
+        width: 80%;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 18px;
+        padding-right: 16px;
+    }
+    #btn img{
+        width: 25px;
+        height: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 40px;
+        border: none;
+        margin-top: 30px;
+    }
+}
